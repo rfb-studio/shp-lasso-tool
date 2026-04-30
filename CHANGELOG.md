@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.2] — 2026-04-29
+
+### Changed
+- Refreshed the README screenshots.
+- LICENSE file is now bundled **inside** the plugin package (`ShpLassoTool/LICENSE`) so it travels with the plugin into every QGIS profile.
+
+### Note
+- Documentation / packaging release only — no change to the plugin's functional code from 1.1.1.
+
 ## [1.1.1] — 2026-04-29
 
 ### Added

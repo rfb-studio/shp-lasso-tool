@@ -3,11 +3,12 @@ name=Shp Lasso Tool
 qgisMinimumVersion=3.16
 qgisMaximumVersion=4.99
 description=Lasso add/subtract editing with auto-dissolve, plus rectangle-select translation of polygon vertex chains for fast shapefile QC.
-version=1.1.1
+version=1.1.2
 author=RFB Studio Ltd.
 email=contact@rfbstudio.ca
 about=Two tools on the toolbar. (1) Lasso edit: left-drag adds and dissolves into the active polygon layer; right-drag (or Ctrl+Left) subtracts. (2) Edge multi-select: drag a rectangle to highlight a chain of polygon vertices in white (Shift+drag to add to the selection), then drag the chain to translate it; unselected vertices stay put so boundary edges stretch automatically. Arrow keys nudge by 1 screen pixel (Shift+Arrow by 10). Both tools share the same pan (middle / Space+Left) and zoom (wheel / +/-) gestures.
-changelog=1.1.1 - first public open-source release under GPL v3.0; rebranded as Shp Lasso Tool. Same feature set as the internal 1.1.0 build, no functional changes.
+changelog=1.1.2 - refreshed README screenshots; bundle LICENSE inside the plugin package. Documentation / packaging release; no functional change.
+ 1.1.1 - first public open-source release under GPL v3.0; rebranded as Shp Lasso Tool. Same feature set as the internal 1.1.0 build, no functional changes.
  1.1.0 - Edge Multi-Select tool: rectangle selection, Shift-additive selection, drag-to-translate with stretching boundary edges, arrow-key nudge, chain caching for snappier interaction.
  0.1.0 - initial Lasso edit tool: add (union & dissolve) and subtract on polygon layers.
 category=Vector

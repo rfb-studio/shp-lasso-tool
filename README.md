@@ -6,7 +6,6 @@
 
 A QGIS plugin for fast polygon-layer editing on shapefiles (and any other vector polygon source) — **lasso add / subtract with auto-dissolve**, plus **rectangle-select translation of vertex chains** with stretching boundary edges.
 
-![demo](docs/screenshots/demo.gif)
 
 ---
 
@@ -27,7 +26,6 @@ A QGIS plugin for fast polygon-layer editing on shapefiles (and any other vector
 - **Esc** or click outside — clear selection.
 
 ![edge select demo](docs/screenshots/02-edge-select.png)
-![multi translate demo](docs/screenshots/03-multi-translate.png)
 
 ### Common controls (both tools)
 | Action | Input |
